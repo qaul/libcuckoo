@@ -6,6 +6,7 @@
 #include "cuckoo.h"
 #include "hashing.h"
 #include <string.h>
+#include <stdlib.h>
 
 #define IGNORE -255
 

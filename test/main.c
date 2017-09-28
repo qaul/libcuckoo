@@ -1,7 +1,7 @@
 #include "cuckoo.h"
+#include <string.h>
+#include <stdlib.h>
 #include <stdio.h>
-#include <memory.h>
-#include <malloc.h>
 
 int main(void)
 {
