@@ -56,7 +56,7 @@ int cuckoo_insert(struct cuckoo_map *map, const char *key, void *data)
     do {
         if(collision != NULL) item = collision;
 
-        ret = insert_to_next(map, item, &collision, &sd);
+        ret = insert_to_next(map, item, &collision, &sd[0]);
         if(ret != 0) return ret;
 
         rec_ctr++;
