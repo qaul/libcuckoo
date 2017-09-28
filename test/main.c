@@ -22,7 +22,8 @@ int main(void)
     printf("\n");
 
     const char *abc = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    for(int i = 0; i < 26 * 2; i++) {
+    int i;
+    for(i = 0; i < 26 * 2; i++) {
         char str[2] = "\0";
         str[0] = abc[i];
 
