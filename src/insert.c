@@ -3,7 +3,7 @@
  */
 
 
-#include <cuckoo.h>
+#include "cuckoo.h"
 #include <malloc.h>
 #include <memory.h>
 

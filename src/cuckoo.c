@@ -6,7 +6,7 @@
  */
 
 /* Public API header */
-#include <cuckoo.h>
+#include "cuckoo.h"
 
 /* Stdlib requirements */
 #include <stdio.h>

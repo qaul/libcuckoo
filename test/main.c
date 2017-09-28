@@ -1,4 +1,4 @@
-#include <cuckoo.h>
+#include "cuckoo.h"
 #include <stdio.h>
 #include <memory.h>
 #include <malloc.h>

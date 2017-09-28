@@ -1,6 +1,6 @@
 #include "hashing.h"
 
-#include <cuckoo.h>
+#include "cuckoo.h"
 #include <string.h>
 
 
