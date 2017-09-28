@@ -4,10 +4,8 @@
 
 
 #include "cuckoo.h"
-#include <malloc.h>
-#include <memory.h>
-
 #include "hashing.h"
+#include <string.h>
 
 #define IGNORE -255
 
